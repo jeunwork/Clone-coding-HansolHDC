@@ -1,5 +1,7 @@
-header { text-align: center;}
-header h1 { position: absolute; left: 50px; top: 14px;}
+/* image slide */
+body { min-width: 1280px;}
+header { position: relative; height: 80px; text-align: center;}
+header h1 { position: absolute; left: 50px; top: 0; padding: 14px 0 0;}
 header h1 a { display: block; width: 110px; height: 80px; color: transparent; background: url(../images/logo1.png) no-repeat;}
 header h2 { }
 
@@ -14,3 +16,26 @@ header .spot li:after { content:""; position: absolute; left: 0; top: 50%; width
 header .spot li a { display: block; height: 45px; padding: 0 10px; line-height: 45px;}
 header .spot li:last-child a {padding-right: 0;}
 header .spot li:first-child:after { display: none;}
+
+/* visual */
+.visual { position: relative; padding: 0 50px;}
+.visual .prev,
+.visual .next {color: transparent; display: block; position: absolute; width: 25px; height: 47px; top: 50%; transform: translateY(-50%);}
+.visual .prev { background: url(../images/left.png) no-repeat; left: 82px;}
+.visual .next { background: url(../images/right.png) no-repeat; right: 82px;}
+.visual .con > div { height: 640px;}
+.visual .con .slide {background: url(../images/image1.png) no-repeat center;}
+.visual .control { position: absolute; width: 100%;  left: 0; bottom: 55px; text-align: center;}
+.visual .control a { color: transparent;}
+.visual .control > div { display: inline-block; position: relative; padding: 0 45px 0 0;}
+.visual .control > div > div { position: absolute; right: -20px; top: -10px;}
+.visual .control > div > div a { opacity: 0.5; overflow: hidden; display: inline-block; width: 30px; height: 30px; }
+.visual .control > div > div a.on { opacity: 1; }
+
+.visual .control > div > div a.play {background: url(../images/play.png);}
+.visual .control > div > div a.pause {background: url(../images/pause.png);} 
+.visual .control ul { display: inline-block; font-size: 0; position: relative; top: -7px;}
+.visual .control li { display: inline-block; padding: 0 3px;}
+.visual .control li.on a { background: #fff;}
+.visual .control li a { border: none; display: block; width: 50px; height: 3px; background: rgba(255, 255, 255, 0.5);}
+
