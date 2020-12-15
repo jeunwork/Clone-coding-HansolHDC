@@ -24,7 +24,7 @@ header .spot li:first-child:after { display: none;}
 .visual .prev { background: url(../images/left.png) no-repeat; left: 82px;}
 .visual .next { background: url(../images/right.png) no-repeat; right: 82px;}
 .visual .con > div { height: 640px;}
-.visual .con .slide {background: url(../images/image1.png) no-repeat center;}
+.visual .con .slide {background: url(../images/bg_main02.jpg) no-repeat center;}
 .visual .control { position: absolute; width: 100%;  left: 0; bottom: 55px; text-align: center;}
 .visual .control a { color: transparent;}
 .visual .control > div { display: inline-block; position: relative; padding: 0 45px 0 0;}
@@ -39,3 +39,22 @@ header .spot li:first-child:after { display: none;}
 .visual .control li.on a { background: #fff;}
 .visual .control li a { border: none; display: block; width: 50px; height: 3px; background: rgba(255, 255, 255, 0.5);}
 
+/* product */
+.product a { display: block; color: #001829; font-size: 15px;}
+.product a:hover { color: #2d5b79; font-weight: bold;}
+.product a:before { content: ''; display: block; width: 64px; height: 52px; margin: 0 0 26px; background:url(../images/sp_com.png) no-repeat; }
+.product ul { width: 1044px; padding: 46px 0 41px; margin: 0 auto; text-align: center;}
+.product li { display: inline-block; float: left; padding: 0 55px; text-align: center;}
+.product li:nth-child(1) a:before { background-position: -3px -118px;}
+.product li:nth-child(2) a:before { background-position: -75px -118px;}
+.product li:nth-child(3) a:before { background-position: -148px -118px;}
+.product li:nth-child(4) a:before { background-position: -219px -118px;}
+.product li:nth-child(5) a:before { background-position: -292px -118px;}
+.product li:nth-child(6) a:before { background-position: -364px -118px;}
+
+.product li:nth-child(1) a:hover:before { background-position: -3px -184px;}
+.product li:nth-child(2) a:hover:before { background-position: -75px -184px;}
+.product li:nth-child(3) a:hover:before { background-position: -148px -184px;}
+.product li:nth-child(4) a:hover:before { background-position: -219px -184px;}
+.product li:nth-child(5) a:hover:before { background-position: -292px -184px;}
+.product li:nth-child(6) a:hover:before { background-position: -364px -184px;}
